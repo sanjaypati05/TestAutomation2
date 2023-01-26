@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="TestAutomation.LCAPBasicTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="testBuyNowClick" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestAutomation.LCAPBasicTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
